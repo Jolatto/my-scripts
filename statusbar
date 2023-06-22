@@ -1,0 +1,10 @@
+#!/bin/bash
+
+while true;
+do
+
+	DATE=$(/bin/date +"%a %d %b %H:%M")
+	VOL=$(pamixer --get-volume)
+	xsetroot -name "$DATE | VOL:$VOL"
+
+done

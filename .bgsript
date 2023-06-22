@@ -1,0 +1,8 @@
+#!/bin/bash
+
+while true;
+do
+
+feh --bg-scale /home/podge/Pictures/8wdbo9ohnyh74g0i.jpg
+
+done &
